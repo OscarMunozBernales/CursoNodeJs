@@ -1,3 +1,2 @@
-let nombre = "Oscar Munoz";
-console.log("hola " + nombre);
+let nombre = "Oscar Munoz    asdasdas";
 console.log(`hola ${nombre}`);

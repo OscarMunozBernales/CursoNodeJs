@@ -26,3 +26,8 @@ let { nombre, apellido, poder } = deadpool;
 //Los argumentos de la destructuracion (nombre, apellido, poder) tiene que ser igual a los atributos del objeto 'deadpool'
 
 console.log(nombre, apellido, poder);
+
+//Ahora si los se quiere cambiar los argumentos de la destructuracion se tiene que hacer de la siguiente manera
+let { nombre: primerNombre, apellido: primerApellido, poder: superPoder } = deadpool;
+
+console.log(primerNombre, primerApellido, superPoder);

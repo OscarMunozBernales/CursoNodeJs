@@ -77,7 +77,7 @@ let getSalario = (id) => {
 
 }
 
-getSalario(3).then(exito => {
+getSalario(30).then(exito => {
     console.log(exito);
     console.log("====================================================================");
 }, error => {
